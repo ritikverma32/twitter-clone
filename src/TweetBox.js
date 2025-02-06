@@ -12,8 +12,8 @@ function TweetBox() {
         e.preventDefault();
 
 db.collection('posts').add({
-    displayName : 'Anand Kumar',
-    username: 'anand',
+    displayName : 'Ritik Verma',
+    username: 'ritik',
     verified: true,
     text: tweetMessage,
     image: tweetImage,
